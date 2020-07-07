@@ -1,0 +1,21 @@
+.element{
+    width: 1215px;
+    margin: 0 auto;
+}
+.element .col{
+    display: flex;
+    flex-wrap: wrap;
+}
+.element .column-1 .col div{
+    width: 33.33%;
+}
+.element .column-2 .col div, .element .column-3 .col div, .element .column-4 .col div{
+    width: 25%;
+}
+.element .column-2 .title{
+    display: flex;
+    align-items: center;
+}
+.element .column-2 .title h2{
+    flex: 1;
+}
